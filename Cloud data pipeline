@@ -1,0 +1,34 @@
+# Tech Blog Platform – Powered by Data Engineering Insights
+
+## Purpose
+This project is a personal blog platform designed to share knowledge, tutorials, and project experiences related to data engineering. It serves as a hub for showcasing hands-on work in areas like cloud data pipelines, ETL development, and modern data stack tools. The blog helps readers gain practical insights into real-world data engineering scenarios.
+
+## Technologies Used
+- **Frontend:** HTML, CSS, Markdown (if using static site generator)  
+- **Backend (optional):** Flask or FastAPI (if dynamic)  
+- **Hosting:** GitHub Pages or any static hosting platform  
+- **Content:** Blog posts written in Markdown or HTML  
+- **Version Control:** Git & GitHub
+
+## How to Run It
+1. **Clone the Repository:**  
+   ```bash  
+   git clone https://github.com/srividya980/blog-project  
+   cd blog-project  
+   ```
+
+2. **Preview Blog Locally:**  
+   If using a static site generator like Jekyll or Hugo:  
+   ```bash  
+   # For Jekyll (Ruby)
+   bundle exec jekyll serve  
+   ```
+
+3. **Deploy Blog:**  
+   - Push your changes to the main branch.  
+   - If GitHub Pages is enabled, it will automatically publish your site.
+
+## Author / Contact
+**Vidya Chepuri**  
+**Email:** srividhyac369@gmail.com  
+**GitHub:** [srividya980](https://github.com/srividya980)
