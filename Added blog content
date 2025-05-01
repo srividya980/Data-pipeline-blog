@@ -1,0 +1,39 @@
+# Building a Scalable Data Pipeline for Cloud Migration Using Spark and Snowflake
+
+## Introduction  
+As a data engineer, I recently led a project focused on migrating large-scale data from an on-premise Hadoop system to Snowflake. This migration aimed to improve query performance, simplify data access, and enable real-time analytics. Here's how I designed and optimized the pipeline.
+
+## Tech Stack  
+- Apache Spark  
+- Informatica  
+- Snowflake  
+- Avro/Parquet formats  
+- AWS S3  
+- SQL & Python  
+
+## Challenges Faced  
+- Handling schema evolution during data transformation  
+- Optimizing data transfer to reduce cloud storage and compute costs  
+- Ensuring data quality, consistency, and security  
+
+## Solution Approach  
+
+### 1. Data Extraction & Format Conversion  
+I used Spark jobs to extract structured and semi-structured data (Avro/ORC) and converted it into optimized Parquet format.
+
+### 2. Transformation & Cleaning  
+Using Spark and Informatica, I applied business rules, anonymized sensitive data, and filtered corrupted records.
+
+### 3. Cloud Upload & Snowflake Integration  
+The pipeline uploaded data into S3 buckets and used Snowflake's `COPY INTO` command for ingestion. I implemented auto-scaling and partitioning for better performance.
+
+### 4. Automation  
+Scheduled jobs using Apache Airflow for orchestration and included alerts for job failure or data anomalies.
+
+## Impact  
+- Reduced data processing time by 40%  
+- Enabled business teams to access insights in near real-time  
+- Improved overall pipeline reliability and maintainability  
+
+## Conclusion  
+This project reinforced the importance of scalable design, performance tuning, and end-to-end automation in modern data pipelines. I’m now exploring ways to integrate LLMs for metadata generation and automated documentation.
